@@ -1,0 +1,44 @@
+.border{
+    border: solid black;
+    padding: 10px;
+}
+
+#picA{
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+
+#picB{
+    float: right;
+    padding: 10px;
+    position: relative;
+}
+
+#picC{
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+#picD{
+    float: right;
+    padding: 10px;
+    position: relative;
+}
+
+p{
+    font-size: 20px;
+}
+
+.bubble{
+    position: absolute;
+    font-family: sans-serif;
+    color: rgb(255, 204, 0);
+    background-color: rgba(117, 62, 22, 0.579);
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    left: 0px;
+    top: 0px;
+    margin-left: 350px;
+}
