@@ -30,6 +30,10 @@ nav ul{
     background-color: rgb(173, 173, 173);
 }
 
+li:hover {
+    background-color: rgb(212, 212, 212);
+}
+
 .menu{
     background-color: rgb(173, 173, 173);
     color: black;
@@ -42,7 +46,98 @@ nav ul{
     text-align: center;
 }
 
-img{
+#homepage img {
     width: 100%;
 }
 
+#aboutmain img {
+    float: left;
+    margin-right: 10px;
+    width: 490px;
+    height: 300px;
+}
+
+#aboutfooter{
+    clear: both;
+}
+
+#contactmain img {
+    float: left;
+    margin-right: 10px;
+    width: 490px;
+    height: 300px;
+}
+
+#contactfooter{
+    clear: both;
+}
+
+.blurb{
+    width: 90%;
+    box-shadow: 5px 5px 10px;  
+    border: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: auto 200px;
+    padding-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+
+}
+
+.left{
+    background-color: rgba(172, 50, 6, 0.397);
+    background-image: url("hockey.jpg");
+    border-radius: 0px 30px 30px 0px;
+    padding-left: 450px;
+    
+}
+
+.left2{
+    background-color: rgba(172, 50, 6, 0.397);
+    background-image: url("home.jpg");
+    border-radius: 0px 30px 30px 0px;
+    padding-left: 450px;
+    
+}
+
+.right{
+    background-color: rgb(173, 173, 173);
+    margin-left: auto;
+    background-image: url("drone.jpg");
+    border-radius: 30px 0px 0px 30px;
+    background-position: right;
+    padding-right: 300px;
+}
+
+#servicesbody{
+    background-color: rgb(212, 212, 212);
+}
+
+.container {
+    width:980px;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-box {
+    width:275px;
+    float:left;
+    height:180px;
+    /* background-image: url("beach.jpeg"); */
+}
+
+.beach1{
+    width: 275px;
+    height: 180px;
+}
+
+#galleryfooter{
+    clear: both;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 58a6555e056690f9e5a9d539e96082cf200f7c34
